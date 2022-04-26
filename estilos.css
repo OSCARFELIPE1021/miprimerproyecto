@@ -1,0 +1,91 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+section{
+    height: 100vh;
+}
+section#home{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 80;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-overflow: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.curriculum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.informacion{
+    border: 23px solid aquamarine;
+    border-radius: 9px;
+    border-style: inset;
+    width: 700px;
+    margin: 20px;
+
+}
+
+.informacion img{
+    width: 100%;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0, 89, 255);
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    padding: 30px;
+
+    
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+    font-size: x-large;
+}
+.logo span {
+    color: rgba(225, 225, 238, 0.493);
+}
+.nav ul {
+    list-style: none;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav a { 
+    color: rgb(199, 201, 221);
+    text-decoration: none;
+    margin-right: 19px;
+
+}
+.nav a:hover {
+    color: rgb(21, 155, 155);
+}
+
+
